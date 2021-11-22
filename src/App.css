@@ -1,0 +1,31 @@
+.App{
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #053705, #246110, #498d17, #75bb19, #a8eb12);
+
+}
+
+.input-form {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-type {
+    width: 50%;
+    border: none;
+    padding: 10px;
+}
+
+.input-button {
+    background-color: lightcoral;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+.map-item {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
